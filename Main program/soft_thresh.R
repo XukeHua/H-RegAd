@@ -1,4 +1,0 @@
-# soft-threshold（L1 prox）
-soft_thresh <- function(x, k) {
-  sign(x) * pmax(abs(x) - k, 0)
-}
